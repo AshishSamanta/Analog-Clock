@@ -1,0 +1,36 @@
+.clock{
+    width:25rem;
+    height:25rem;
+    border:0.5rem solid rgb(207, 213, 194);
+    border-radius:25%;
+    margin:auto;
+    background-color: aqua;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+
+}
+#hourhand,#minhand,#sechand{
+    position:absolute;
+    border-radius:10px;
+    transform-origin:bottom;
+}
+#hourhand{
+    background-color:rgb(230, 110, 35);
+   height:4rem;
+   width:0.5rem;
+  top:9.1rem;
+
+}
+#minhand{
+    background-color:yellow;
+    height:7rem;
+    width:0.3rem;
+   top:6.3rem;
+}
+#sechand{
+    background-color:rgb(11, 216, 175);
+    height:8rem;
+    width:0.1rem;
+   top:5.3rem;
+}
